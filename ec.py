@@ -201,8 +201,7 @@ def result():
             else:
                 a3='丹拿花園'
     
-            score=random.choice([5,6,7,8,9]) 
-        return render_template('result.html',name=name,place=place,budget=budget,consider=consider,favour=favour,ft=ft,g2=g2,g3=g3,g4=g4,a2=a2,a3=a3,a1=a1,score=score)
+        return render_template('result.html',name=name,place=place,budget=budget,consider=consider,favour=favour,ft=ft,g2=g2,g3=g3,g4=g4,a2=a2,a3=a3,a1=a1)
 
 @app.route('/',methods = ['POST'])
 def home1():
